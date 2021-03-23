@@ -1,0 +1,31 @@
+{
+  "name": "plywoodpirate/slack_notifictations",
+  "description": "Send notifications to a slack channel",
+  "type": "typo3-cms-extension",
+  "license": "GPL-2.0-or-later",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Micha Grandel",
+      "email": "micha@plywoodpirate.de"
+    }
+  ],
+  "require": {
+    "typo3/cms-core": "^9.5 || ^10.4",
+    "typo3/cms-fluid-styled-content": "^9.5 || ^10.4",
+    "composer-runtime-api": "^2.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Plywoodpirate\\SlackNotifications\\": "Classes/"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "slack_notifications"
+    }
+  }
+}

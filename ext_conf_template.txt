@@ -1,0 +1,2 @@
+# cat=plugin.slack_notifications; type=string; label=Slack WebHook URL:Webhook URL for Your Slack Workspace
+slack.webHookUrl =
